@@ -1,0 +1,10 @@
+.holygrailgrid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+}
+.header {
+  grid-area: header;
+  background: #79af30;
+}
